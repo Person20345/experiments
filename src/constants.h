@@ -1,3 +1,6 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
 #include <iostream>
 #include <ctime>
 #include <cmath>
@@ -24,3 +27,5 @@ void print_fibonacci(int numbers_num, int fibonacci_sequence_order);
 long double get_phi(int sequence_order);
 
 void print_phi(int numbers_num, int fibonacci_sequence_order);
+
+#endif
